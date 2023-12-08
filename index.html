@@ -84,6 +84,11 @@
     
     // Set the source of the large image directly
     document.getElementById('largeImage').src = largeImageUrl;
+    
+    // Set the style for 90% height and width auto
+    var largeImageElement = document.getElementById('largeImage');
+    largeImageElement.style.height = '75%';
+    largeImageElement.style.width = '95%';
 
     // Display the main image container
     document.getElementById('mainImage').style.display = 'block';
